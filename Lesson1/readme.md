@@ -41,7 +41,7 @@ class FilePath final                    // 类名，首字母大写
 public:
     void set_path(const string& str);   // 函数名，全小写
 private:
-    string m-path;                      // 成员变量，m_前缀
+    string m_path;                      // 成员变量，m_前缀
     int    m_level;                     // 成员变量，m_前缀
 }
 ```
