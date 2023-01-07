@@ -27,7 +27,7 @@ C++支持五种范式
 
 ## 命名规范
 
-'''cpp {line-numbers}
+```cpp {line-numbers}
 \#define MAX_PATH_LEN 256                // 常量，全大写
 
 int g_sys_flag;                         // 全局变量，加g_前缀
@@ -44,4 +44,4 @@ private:
     string m-path;                      // 成员变量，m_前缀
     int    m_level;                     // 成员变量，m_前缀
 }
-'''
+```
